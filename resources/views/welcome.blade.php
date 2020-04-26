@@ -32,9 +32,9 @@
                     <div class="d-flex justify-content-end">
                         <div class="d-flex flex-column">
                             <h1 class="header1">Best Delicious Food Ever</h1>
-                            <p class="header-desc">This command should be used on fresh applications and will install. <br> applications and will install a layout applications and will install. <br> applications and will install a layout application and will.</p>
+                            <p class="header-desc">Best local and foreign dishes with a great dinning experience Native <br> delicacies provide an intimate and relaxed dinning experience that offers <br> different from local to foreign patrons.</p>
                             <div class="d-flex flex-row">
-                                <a href="/about" class="section2-btn">Discover More</a>
+                                <a href="/menu" class="section2-btn">Discover More</a>
                             </div>
                         </div>
                     </div>
@@ -60,22 +60,22 @@
                     <div class="col-md-4">    
                         <div class="d-flex flex-column">
                             <img src="/img/foody.png" class="img-fluid" alt="Native Delicacies Logo">
-                            <p class="news-desc">Food and Beverage Magazine has remained the leading resource</p>
-                            <i class="fa fa-calendar-check-o" aria-hidden="true"> 15/03/2020</i>
+                            <p class="news-desc">Food and Beverage Magazine has remained the leading resource in healthcare...</p>
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"> 15/05/2020</i>
                         </div>   
                     </div>
                     <div class="col-md-4">
                         <div class="d-flex flex-column">
                             <img src="/img/a5.jpg" class="img-fluid" alt="Native Delicacies Logo">
-                            <p class="news-desc">Food and Beverage Magazine has remained the leading resource</p>
-                            <i class="fa fa-calendar-check-o" aria-hidden="true"> 15/03/2020</i>
+                            <p class="news-desc">Tastee Pot has over the years become the outdoor caterer of first choice, serving...</p>
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"> 8/07/2020</i>
                         </div> 
                     </div>
                     <div class="col-md-4">
                         <div class="d-flex flex-column">
                             <img src="/img/a4.jpg" class="img-fluid" alt="Native Delicacies Logo">
-                            <p class="news-desc">Food and Beverage Magazine has remained the leading resource</p>
-                            <i class="fa fa-calendar-check-o" aria-hidden="true"> 15/03/2020</i>
+                            <p class="news-desc">The advent of the eatery with new concept of service, qualitative products and...</p>
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"> 28/05/2020</i>
                         </div> 
                     </div>
                 </div> 
