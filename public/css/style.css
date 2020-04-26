@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto&family=Ubuntu&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body 
+{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-right: 550px;
+}
+
+/* .navbar-brand{
+    font-size: 20px;
+    margin-right: 550px;
+} */
+
+.nav-link{
+    font-size: 16px;
+    margin: 5px;
+    color: #483D8B !important;
+    font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover{
+    color: #e91e24 !important;
+}
+
+.active .nav-link{
+    color: #e91e24 !important;
+    background: #f7e6e7;
+    border-radius: 40%; 
+}
+
+.site-content{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/img/restaurant.jpg');
+    background-size: cover;
+    width: 100%;
+   
+}
+
+.site-title,
+.site-desc{
+    color: #fff;
+}
+
+.site-title{
+    margin-top: 55%;
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-family: 'Lato';
+    letter-spacing: 2px;
+}
+
+.booking{
+    margin-left: 180px;
+    color: #e9161d;
+    background-color: #eff0f4;
+    font-weight: 600;
+    padding: 18px 18px;
+    font-family: 'Lato';
+    text-decoration: none !important;
+    margin-bottom: 20%;
+}
+
+/* section -1 */
+
+.delicious-p{
+    color: #483D8B !important;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+}
+.delicious{
+    color: #e9161d;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 5px;;
+}
+
+.dishes{
+    color: #483D8B;
+    font-family: 'Roboto';
+}
+
+.price{
+    color: #e9161d;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.myprice{
+    margin-bottom: 43px;
+    color: #e9161d;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.price-logo{
+    width: 70px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-left: 45%;
+    margin-top: -10px;
+}
+
+/* section -2 */
+
+.section-2{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/img/delicacies.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.section2-btn{
+    color: #e9161d;
+    background-color: #eff0f4;
+    font-weight: 600;
+    padding: 18px 18px;
+    font-family: 'Lato';
+    text-decoration: none !important;
+    margin-bottom: 50px;
+}
+
+.header1{
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Righteous', cursive;
+}
+
+.header-desc{
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+
+.discover{
+    margin-left: 180px;
+    color: #e9161d;
+    background-color: #eff0f4;
+    font-weight: 600;
+    padding: 18px 18px;
+    font-family: 'Lato';
+    text-decoration: none !important;
+    margin-bottom: 50px;
+}
+
+
+/* section -4 */
+
+.section-4{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('/img/sec.png');
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 50px !important;
+}
+.section-4-content{
+    margin-left: 100px;
+}
+
+.section-4-header1 {
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Righteous', cursive;
+}
+
+.section4-wel-txt{
+    color: #e9161d;
+    margin-top: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.news-caption{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    background-color: #e9161d;
+    padding: 15px 20px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.header-news{
+    color: #483D8B !important;
+    font-size: 30px;
+    font-family:'Righteous';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-desc{
+    color: #483D8B !important;
+    font-weight: bold;
+}
+
+.fa-calendar-check-o{
+    color: #e9161d;
+}
+
+/* section -6 */
+.footer{
+    margin-top: 60px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/img/footer.png');
+    background-size: cover;
+	width: 100%;
+	background-position: center;
+	color: #f0f0f0;
+}
+
+.fa-address-card-o,
+.fa-clock-o,
+.fa-trophy{
+    font-size: 50px;
+    margin-left: 100px;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer-header{
+    font-size: 20px;
+    margin-left: 60px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footer-desc{
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    background-color: #483D8B !important;
+    padding: 20px;
+}
+.copyright-desc{
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	text-transform: capitalize;
+}
+
+.copyright-span{
+    color: #d37679;
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+}
+
+.content-section{
+    background-color: #ccc !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content {
+	max-width:600px;
+	width:100%;
+	margin:0 auto;
+    position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:500 14px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+}
+
+#contact h3 {
+	color: #e9161d;
+	display: block;
+	font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+    font-size:13px;
+    text-align: center;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#483D8B !important;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+.single-food-section{
+    background-color: #f0f0f0;
+    padding-top: 50px;
+}
+
+.food-item-header{
+    color: #483D8B !important; 
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family:'Lato';
+    text-transform: uppercase;
+}
+.items{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+    padding-top: 20;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.items h4,
+.menu-price{
+    font-size: 1.4rem;
+    color: #232323;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.menu-price{
+    color: #483D8B;
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+}
+
+.items h4,
+.ingredients{
+    padding-left: 50px;
+}
+
+.ingredients{
+    background-color: #F9F9F9;
+    padding-bottom: 20px;
+}
+
+iframe{
+    width: 100%;
+    margin-top: 70px;
+    height: 300px;
+}
+
+
+.about-section{
+    padding-top: 50px;
+    background-color: #F9F9F9;
+}
+
+.about{
+    color: #483D8B !important; 
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family:'Roboto';
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.img-fluid:hover{
+    transform: scale(1.07); 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
