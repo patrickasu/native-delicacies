@@ -13,7 +13,7 @@ class GeneralSettingSeeder extends Seeder
     public function run()
     {
         DB::table('general_settings')->insert([
-            'site_title' => 'Caba Restaurant',
+            'site_title' => 'Native Delicacies',
             'logo_image_url' => '/img/3.png',
             'address_1' => 'No. 25 Adewale Avenue,',
             'address_2' => '',

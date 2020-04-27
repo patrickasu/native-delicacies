@@ -22,7 +22,7 @@ class AdminController extends Controller
         $estimated_income_last_30days = DB::select(DB::raw('
         select
                 (sum(guests_total) *2000) as total
-            from native_delicacies.reservations
+            from reservations
             where created_at between curdate() - interval 30 day and curdate()
         '));
         //dd($estimated_income_last_30days[0]->total);
@@ -31,18 +31,18 @@ class AdminController extends Controller
         $total_customers_last_30days = DB::select(DB::raw('
         select
                 sum(guests_total) as total
-            from native_delicacies.reservations
+            from reservations
             where created_at between curdate() - interval 30 day and curdate()
         '));
         $total_reservations_last_30days = DB::select(DB::raw('
         select
                 count(*) as total
-            from native_delicacies.reservations
+            from reservations
             where created_at between curdate() - interval 30 day and curdate()
         '));
         $total_employees_last_30days = DB::select(DB::raw('
             select count(*) as total
-            from native_delicacies.users
+            from users
             where created_at between curdate() - interval 3 day and curdate()
             
         '));
@@ -69,7 +69,7 @@ class AdminController extends Controller
         SELECT
             DATE_FORMAT(created_at, "%Y-%m-%d") as x,
             (sum(guests_total)*1000) as y
-            FROM native_delicacies.reservations
+            FROM reservations
             group by x desc;
         '));
     }

@@ -30,7 +30,7 @@ class UserSeeder extends Seeder
             'created_at' => Carbon::now()
         ]);
         DB::table('users')->insert([
-            'fname' => 'Christian',
+            'fname' => 'Abi',
             'lname' => 'Lawson',
             'email' => 'christian@gmail.com',
             'password' => Hash::make('1111111111'),
