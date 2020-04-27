@@ -16,7 +16,7 @@
                         <div class="d-flex flex-column">
                             <div class="items">
                                 <h4>{{$foodItem->title}}</h4>
-                                <span class="menu-price">{{$foodItem->price}}</span>
+                                <span class="menu-price">₦{{$foodItem->price}}</span>
                             </div>
                             <div class="ingredient">
                                 <p class="ingredients">{{$foodItem->ingredients}}</p>
